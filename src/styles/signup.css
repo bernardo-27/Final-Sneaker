@@ -1,0 +1,58 @@
+.custom-container {
+    max-width: 1200px;
+    width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-container {
+  margin: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ffc107; /* Bootstrap warning yellow */
+}
+label,p, hr {
+    color: black;
+}
+
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #fff;
+}
+
+
+.btn-outline-secondary:hover {
+  background-color: #ffc107;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: none;
+}
+
+
+/* login */
+.login-container .card {
+  background-color: #ffffff !important;
+}
+
+.login-container .bg-warning {
+  background-color: #ffc107 !important; /* Bootstrap yellow */
+}
